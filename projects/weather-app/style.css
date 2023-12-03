@@ -1,7 +1,7 @@
 body {
   margin: 0;
   font-family: "Montserrat", sans-serif;
-  background-color: #f7f7f7;
+  background-color: #f8a5c2;
 }
 
 .container {
@@ -44,6 +44,10 @@ form input[type="submit"] {
 
 form input[type="submit"]:hover {
   background-color: #0062cc;
+}
+
+::placeholder {
+    border: 1px solid lightpink;
 }
 
 .icon img {

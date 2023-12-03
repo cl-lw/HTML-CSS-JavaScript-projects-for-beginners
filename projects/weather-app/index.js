@@ -12,6 +12,7 @@ formEl.addEventListener("submit", (event) => {
   getWeatherData(cityValue);
 });
 
+
 async function getWeatherData(cityValue) {
   try {
     const response = await fetch(
@@ -54,5 +55,6 @@ async function getWeatherData(cityValue) {
       "An error happened, please try again later";
 
     weatherDataEl.querySelector(".details").innerHTML = "";
+   
   }
 }
